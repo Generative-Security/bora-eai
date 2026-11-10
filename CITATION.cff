@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use or adapt BORA-EAI, please cite it as below."
+title: "Business Outcome Risk Analysis for Enterprise AI (BORA-EAI)"
+version: "0.1"
+date-released: 2026-11-10
+license: CC-BY-4.0
+type: dataset
+authors:
+  - name: "Generative Security"
+    website: "https://generativesecurity.ai"
+  - family-names: "Wasielewski"
+    given-names: "Michael"
+    name-suffix: "Jr."
+    affiliation: "Generative Security"
+repository-code: "https://github.com/Generative-Security"
+abstract: >-
+  An open method for analyzing the risk of how an enterprise uses AI at the business-outcome
+  level. BORA-EAI takes the AI use case as the unit of analysis, runs it through nine layers,
+  draws on a library of fifteen business threat scenarios with one accountable executive each, and
+  nets risk-adjusted value against expected loss and governance cost as a range.
+keywords:
+  - "AI risk"
+  - "risk analysis"
+  - "threat modeling"
+  - "enterprise risk management"
+  - "AI governance"
+  - "CISO"
