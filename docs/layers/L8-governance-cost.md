@@ -26,7 +26,7 @@ Count only the **incremental** cost a use case drives. Controls that already exi
 
 ## Reference costs
 
-Hard governance-cost data is scarce. What exists `[labels as shown]`:
+Hard governance-cost data is scarce. What exists, with each row labeled:
 
 | Item | Range | Evidence |
 |---|---|---|

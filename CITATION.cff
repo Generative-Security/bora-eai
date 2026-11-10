@@ -14,7 +14,7 @@ authors:
     affiliation: "Generative Security"
 repository-code: "https://github.com/Generative-Security"
 abstract: >-
-  An open method for analyzing the risk of how an enterprise uses AI at the business-outcome
+  An open model for analyzing the risk of how an enterprise uses AI at the business-outcome
   level. BORA-EAI takes the AI use case as the unit of analysis, runs it through nine layers,
   draws on a library of fifteen business threat scenarios with one accountable executive each, and
   nets risk-adjusted value against expected loss and governance cost as a range.

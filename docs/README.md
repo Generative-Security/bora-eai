@@ -2,6 +2,8 @@
 
 Working draft v0.1. Start with the [repository README](../README.md) for a one-minute overview.
 
+Throughout these pages, factual claims carry a bracketed label such as `[peer-reviewed]`, `[survey]`, or `[vendor]`. It tells you what kind of source stands behind the claim, so you can judge how much weight it bears. See [Evidence labels and verification log](reference/evidence-labels.md) for what each label means.
+
 ## Core
 
 1. [Introduction](01-introduction.md): the problem, the five owners, and what BORA-EAI is and is not

@@ -4,9 +4,9 @@ Threats, value, and ownership for each AI use case. Driven by strategy and perfo
 
 **Working draft v0.1 · Open for review · November 2026**
 
-Business Outcome Risk Analysis for Enterprise AI (BORA-EAI) is an open method for analyzing the risk of how an enterprise *uses* AI, at the level where executives make decisions: whether to fund, constrain, or stop a specific use of AI, and who answers for the outcome.
+Business Outcome Risk Analysis for Enterprise AI (BORA-EAI) is an open model for analyzing the risk of how an enterprise *uses* AI, at the level where executives make decisions: whether to fund, constrain, or stop a specific use of AI, and who answers for the outcome.
 
-Technical threat models such as STRIDE, MITRE ATLAS, and MAESTRO are good at describing how an AI system can be attacked. They stop at the system boundary. They do not tell a CFO what a failure will cost, tell General Counsel which use cases carry liability, or tell a CEO what the business loses by not deploying at all. BORA-EAI works one level up. It takes each AI use case and asks what it could do to the business, what it could do *for* the business, what it costs to govern, and which executive carries each consequence.
+Technical threat models such as STRIDE, MITRE ATLAS, and MAESTRO are good at describing how an AI system can be attacked but they stop at the system boundary. They do not tell a CFO what a failure will cost, tell General Counsel which use cases carry liability, or tell a CEO what the business loses by not deploying at all. BORA-EAI is intended to work at that executive level. It takes each AI use case and asks what could happen to the business if something goes wrong, what value it brings to the business when it goes right, what it costs to govern, and which executive carries each consequence.
 
 > **Status: not yet validated.** BORA-EAI is a working draft published for review. Several components are new and untested. Please read [Status and limitations](docs/validation/status-and-limitations.md) before using it for real decisions, and [tell us where it breaks](#help-us-break-it).
 
@@ -18,13 +18,13 @@ Enterprise AI risk is a puzzle of several pictures that only look right when the
 
 | Picture | Owner | Currency | Example of what goes wrong |
 |---|---|---|---|
-| Law and regulation | General Counsel, HR | Settlements and fines | A chatbot's statement binds the company; a hiring tool discriminates |
+| Laws and regulations | General Counsel, HR | Settlements and fines | A chatbot's statement binds the company; a hiring tool discriminates |
 | Finance | CFO | Budget variance | A production system costs far more than the pilot did |
 | Operations | COO, revenue owners | Revenue lost, efficiency gained | A revenue-generating bot is pulled offline |
 | Security | CISO | Incident and breach cost | A copilot leaks data it should never have been able to see |
 | Strategy | CEO, board | Growth gained or lost | Competitors capture value while we wait |
 
-Each discipline already has a way to frame AI risk. We could not find a published model that lines them up, use case by use case, with the benefits on the same page as the threats. The [landscape review](docs/reference/landscape.md) explains what we looked at and where each existing model stops.
+Each discipline already has a way to frame AI risk. But at Generative Security we have been trying to find a published model that lines them up, use case by use case, with the benefits on the same page as the threats. The [landscape review](docs/reference/landscape.md) explains what we looked at and where each existing model stops.
 
 ## How BORA-EAI works, in one minute
 
@@ -92,9 +92,24 @@ See [Quantification](docs/06-quantification.md) for how each term is estimated a
 
 The full table of contents is in [docs/README.md](docs/README.md).
 
-## What is new and what is borrowed
+## Reading the evidence labels
 
-Most of BORA-EAI is assembled from existing, published work: AWS's generative and agentic AI scoping matrices, the CSA AI Controls Matrix and Capabilities-Based Risk Assessment, FAIR and FAIR-AIR, the Geneva Association's insurer view of GenAI risk, COSO's GenAI capability types, ISO/IEC 23894, 42001 and 42005, the NIST AI RMF, Huwyler's AI threat taxonomy, OWASP's LLM and agentic top 10 lists, and the MIT AI Risk Repository. Credit for those components belongs to their authors.
+Factual claims in the documentation carry a short label in brackets, such as `[peer-reviewed]` or `[vendor]`. The label says what kind of source stands behind the claim, so you can judge how much weight it bears. It is not a citation; the link next to it is.
+
+| Label | Means |
+|---|---|
+| `[peer-reviewed]`, `[RCT]`, `[standard]`, `[legal ruling]`, `[government]` | Strongest sources: published research, standards, rulings, official statements |
+| `[industry-body]`, `[analyst]`, `[consulting]`, `[survey]` | Credible but not independently tested: industry bodies, analyst firms, consultancies, surveys |
+| `[vendor]` | Data from a company that sells the relevant product. Useful, but read with that in mind |
+| `[secondary]` | Reported by someone else; we did not read the primary source |
+| `[not re-checked]`, `[unverified]` | We could not confirm the figure for this draft. Treat it as a lead |
+| `[illustrative]` | Invented for an example. Not evidence |
+
+The full list, and a log of what we verified for this draft, is in [Evidence labels and verification log](docs/reference/evidence-labels.md).
+
+## What is new and what inspired us
+
+BORA-EAI is a combination of the best from existing work and a novel way of combining the pieces into a coherent outcome that empowers decision-making. You will find inspiration from AWS's generative and agentic AI scoping matrices, the CSA AI Controls Matrix and Capabilities-Based Risk Assessment, FAIR and FAIR-AIR, the Geneva Association's insurer view of GenAI risk, COSO's GenAI capability types, ISO/IEC 23894, 42001 and 42005, the NIST AI RMF, Huwyler's AI threat taxonomy, OWASP's LLM and agentic top 10 lists, and the MIT AI Risk Repository. Credit for those components belongs to their authors.
 
 The parts we built, and which most need testing, are:
 

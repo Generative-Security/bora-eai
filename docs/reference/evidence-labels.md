@@ -23,6 +23,16 @@ Every factual claim in BORA-EAI carries a label so readers can judge how much we
 | `[unverified]` | Could not be confirmed against a primary source; treat as a lead, not a fact |
 | `[not re-checked]` | Cited from a canonical primary publication but the specific figure was not re-checked for this draft |
 | `[illustrative]` | Invented for an example; not evidence of anything |
+| `[think tank]` | Policy research organization; may be aligned with an industry or political position, noted where known |
+| `[research organization]` | Independent research group publishing outside peer review (for example, METR) |
+| `[government-commissioned]` | Study commissioned by a government but written by outside authors |
+
+### Combined labels
+
+Some claims carry two parts, separated by a comma:
+
+- **"via secondary"**, as in `[analyst, via secondary]`, means the original source is of the first type, but we read it through someone else's report.
+- **A qualifier**, as in `[survey, methodology not verified]` or `[vendor, vendor-neutral in substance]`, adds a caveat or context about that source.
 
 ## Verification log for this draft
 

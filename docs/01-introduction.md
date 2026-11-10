@@ -20,7 +20,7 @@ Enterprise AI risk is a puzzle with several distinct pictures inside it. Each pi
 
 | Picture | Owner | Currency | What the owner wants to know |
 |---|---|---|---|
-| Law and regulation | General Counsel, HR | Settlements and fines | Which use cases create liability, and under which law? |
+| Laws and regulations | General Counsel, HR | Settlements and fines | Which use cases create liability, and under which law? |
 | Finance | CFO | Budget variance | What will this really cost, and what will it return? |
 | Operations | COO, revenue owners | Revenue lost, efficiency gained | What happens to the process if this fails or is pulled? |
 | Security | CISO | Incident and breach cost | What can this expose, and to whom? |
@@ -28,7 +28,7 @@ Enterprise AI risk is a puzzle with several distinct pictures inside it. Each pi
 
 Some examples of what each owner sees:
 
-- **Law and regulation.** The EU AI Act sets fines of up to €15 million or 3% of worldwide turnover for most operator obligations, and up to €35 million or 7% for prohibited practices `[government]` ([AI Act Article 99](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99)). Air Canada's tribunal loss in *Moffatt* was only CA$812, but it established that a company owns what its chatbot tells customers `[legal ruling]` ([McCarthy Tétrault](https://www.mccarthy.ca/en/insights/blogs/techlex/moffatt-v-air-canada-misrepresentation-ai-chatbot)).
+- **Laws and regulations.** The EU AI Act sets fines of up to €15 million or 3% of worldwide turnover for most operator obligations, and up to €35 million or 7% for prohibited practices `[government]` ([AI Act Article 99](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-99)). Air Canada's tribunal loss in *Moffatt* was only CA$812, but it established that a company owns what its chatbot tells customers `[legal ruling]` ([McCarthy Tétrault](https://www.mccarthy.ca/en/insights/blogs/techlex/moffatt-v-air-canada-misrepresentation-ai-chatbot)).
 - **Operations.** In Verizon's 2026 Breach Impact Study, built from about 70,000 US cyber-insurance claims, business interruption had the highest median loss of any category, around US$90,000 per claim, and made up 44% of known retail losses `[survey]` ([SecurityInfoWatch](https://www.securityinfowatch.com/cybersecurity/news/55388513/verizon-business-study-finds-median-breach-costs-have-nearly-doubled-since-2019)).
 - **Security.** In IBM's 2025 study, 13% of organizations reported a breach of an AI model or application, and 97% of those lacked AI access controls. One in five reported a breach caused by shadow AI, and organizations with high levels of shadow AI paid an average of US$670,000 more per breach `[survey]` ([IBM](https://newsroom.ibm.com/2025-07-30-ibm-report-13-of-organizations-reported-breaches-of-ai-models-or-applications,-97-of-which-reported-lacking-proper-ai-access-controls)).
 
@@ -36,7 +36,7 @@ Each discipline already has a way to frame AI risk. As far as we could find, not
 
 ## What BORA-EAI is
 
-BORA-EAI is a method for deciding, per AI use case:
+BORA-EAI is a model for deciding, per AI use case:
 
 - what the use case could do to the business, in terms each owner recognizes;
 - what it could do for the business, as a range, including the chance it never delivers;
